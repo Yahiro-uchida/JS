@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+header {
+    background-color: #ffcccc;
+}
+aside {
+  float: right;
+  width: 30%;
+  background-color: #ccccff;
+
+}
+#main {
+  float: left;
+  width: 70%;
+  background-color: #ccffcc;
+}
+
+footer {            
+  background-color: #ffccff;
+  clear: both
+}
+    
+

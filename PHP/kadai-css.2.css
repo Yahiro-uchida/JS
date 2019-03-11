@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+  height: auto;
+}
+header {
+  height: 50px;
+    background-color: #ffcccc;
+}
+aside {
+  height: 444.05px;
+  float: right;
+  width: 30%;
+  background-color: #ccccff;
+  size:auto;
+ 
+}
+#main {
+  float: left;
+  width: 70%;
+  margin-top: auto;
+  background-color: #ccffcc;
+}
+footer {   
+  background-color: #ffccff;
+  clear: both;
+}  
