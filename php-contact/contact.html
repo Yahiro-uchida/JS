@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+    <html lang="ja">
+           <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>お問い合わせ | サンプル株式会社</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        font-size: 17px;
+      }
+
+      .navbar {
+        border-radius: 0;
+      }
+
+      .row {
+        margin-bottom: 50px;
+      }
+
+      .icon {
+        text-align: center;
+      }
+
+      .icon .glyphicon {
+        margin-bottom: 10px;
+        font-size: 25px;
+    color: #777;
+      }
+
+      .content h2 {
+        margin-top: 0;
+        padding-bottom: 15px;
+      }
+      .content p {
+        margin-bottom: 30px;
+      }
+
+      footer {
+        border-top: 1px solid#e7e7e7;
+        background-color: #f8f8f8;
+        text-align: center;
+      }
+
+      .copyright {
+        padding: 20px 0;
+        font-size: 12px;
+        color: #666;
+      }
+
+      .table thead > tr > th {
+        border-bottom: none;
+      }
+
+      @media (max-width: 768px) {
+        body {
+          font-size: 12px;
+        }
+        h1 {
+          font-size: 30px;
+        }
+        h2 {
+          font-size: 24px;
+        }
+        .panel-title {
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+ <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">サンプル株式会社</a>
+          </div>
+          <div class="collapse navbar-collapse" id="site-menu">
+            <ul class="nav navbar-nav navbar-left">
+              <li><a href="#">会社情報</a></li>
+              <li><a href="#">事業情報</a></li>
+              <li><a href="#">ニュース</a></li>
+              <li class="active"><a href="#">お問い合わせ</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                  採用情報
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">新卒採用</a></li>
+                  <li><a href="#">キャリア採用</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="page-header">
+        <h1>お問い合わせ</h1>
+      </div>
+      <div class="row">
+        <div class="icon col-sm-3 hidden-xs text-center">
+          <span class="glyphicon glyphicon-earphone" aria-hidden="true"> お電話:</span>
+          <!--<div class="icon-caption"><span>お電話</span></div>-->
+        </div>
+        <div class="content col-sm-9">
+          <h2>お電話によるお問い合わせ</h2>
+          <p>
+          該当する内容の電話番号におかけください。
+          </p>
+          
+<table class="table table-bordered">
+  <tr>
+    <th class="text-leftr">内容</th>
+    <th class="text-left">電話番号</th>
+    <th class="text-left">担当</th>
+  </tr>
+  <tr>
+   <td class="active">サービスに関するお問い合わせ</td>
+    <td class="active text-left">03-0000-0000</td>
+    <td class="active text-left">煌木</td>
+  </tr>
+  <tr>
+    <td>採用に関するお問い合わせ</td>
+    <td class="text-left">03-0000-0001</td>
+    <td class="text-left">煌田</td>
+  </tr>
+  <tr>
+    <td class="active">サービスに関するお問い合わせ</td>
+    <td class="active text-left">03-0000-0001</td>
+    <td class="active text-left">煌山</td>
+  </tr>
+</table>
+ 
+          <div class="table-responsive">
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading active">
+              <h6 class="panel-title" id="panel-title">
+                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"> 営業時間</span>
+                <!--営業時間-->
+              </h6>
+            </div>
+            <div class="panel-body">
+              平日10時〜19時（土日・祝日は対応しておりません）
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="icon col-sm-3 hidden-xs text-center">
+          <span class="glyphicon glyphicon-envelope" aria-hidden="true"> メール:</span>
+          <!--<div class="icon-caption">メール</div>-->
+        </div>
+        <div class="content col-sm-9">
+          <h2>メールによるお問い合わせ</h2>
+          <p>
+          プライバシーポリシーをご確認、ご同意の上、送信ボタンを押してください。<br>
+          お問い合わせの回答は、受付日から3営業日以内をめどにご返信差し上げます。    
+          </p>
+  <form class="form-horizontal">
+      <div class="form-group">
+        <label class="col-xs-2 control-label">会社名:</label>
+          <div class="col-xs-10">
+        <input type="text" class="form-control" placeholder="例）サンプル株式会社" name="companyName">
+          </div>
+      </div>
+
+
+    <div class="form-group">
+      <label class="col-xs-2 control-label">氏名:</label> 
+        <div class="col-xs-10">
+        <input type="text" class="form-control" placeholder="例：煌木 太郎" name="firstname">
+      </div>
+    </div>
+  
+  
+    <div class="form-group text-left">
+    <label class="col-xs-2 control-label">メール:</label> 
+    <div class="col-xs-10">
+      <input type="text" class="form-control" placeholder="例：taro.kirameki@exaple.com" name="mail">
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label class="col-xs-2 control-label">電話番号:</label> 
+  
+    <div class="col-xs-10">
+      <input type="text" class="form-control" placeholder="例：0312345678" name="Number">
+    </div>
+    </div>
+
+ <div class="form-group">
+    <label class="col-xs-2 control-label">内容:</label> 
+    <div class="col-xs-10">
+      <textarea class="form-control" placeholder="具体的にお書きください" rows="3"></textarea>
+</div>
+</div>
+
+  <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">  <label>
+          <input type="checkbox">  プライバシーポリシーに同意
+        </label>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!--<div class="form-group">-->
+  <!--  <div class="col-xs-offset-2 col-xs-10">-->
+  <!--    <button type="button" class="btn btn-success btn-primary btn-lg btn-block">お問い合わせ内容を送信する</button>-->
+  <!--  </div>-->
+  <!--</div>-->
+</form>
+
+    <footer>
+      <div class="copyright">
+        <small>&copy; 2015 SAMPLE Inc.</small>
+      </div>
+    </footer>
+  </body>
+</html>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS, then Font Awesome -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"></script>
+    </body>
+</html>
